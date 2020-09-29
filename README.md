@@ -1,0 +1,12 @@
+# TechScroll
+
+A Google product landing page to demonstrate slide in and scroll effects.
+
+This webpage was made using:
+
+- HTML, CSS, Javascript
+- jQuery
+- Bootstrap 4.1.3
+- [scrollreveal](https://github.com/jlmakes/scrollreveal) - to creat a slide effect for images and content
+
+This webpage is ficticious, developed for practice.
