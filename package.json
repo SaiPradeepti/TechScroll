@@ -1,10 +1,10 @@
 {
-  "name": "TechScroll",
+  "name": "tech-scroll",
   "version": "1.0.0",
   "description": "A Google product landing page to demonstrate slide in and scroll effects.",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
