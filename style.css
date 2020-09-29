@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #333;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Poppins;
+}
+.navbar-nav li:hover a {
+  color: #000 !important;
+}
+p {
+  font-family: Roboto;
+}
+.navbar {
+  background: #fff;
+  border: 0;
+  font-family: Poppins;
+}
+.navbar-nav .nav-link {
+  color: #777 !important;
+}
+#showcase img {
+  width: 90%;
+}
+#showcase h1 {
+  font-size: 50px;
+}
+#testimonial {
+  background: #f1f1f1;
+  padding: 50px 0 30px 0;
+  margin-top: 40px;
+}
+#testimonial p {
+  font-size: 32px;
+  font-family: "Josefin Sans";
+  color: #000;
+}
+
+#testimonial .customer {
+  font-size: 20px;
+  color: #666;
+}
+#info1 {
+  margin-top: 40px;
+}
+#info2 {
+  border-top: 0.3px solid rgb(228, 226, 226);
+}
+#contact {
+  border-top: 7px solid rgb(61, 61, 61);
+  border-bottom: 7px solid rgb(61, 61, 61);
+}
+#contact {
+  background: url(./img/image3.png);
+  font-weight: 600;
+}
+footer {
+  height: 100px;
+}
+footer .container {
+  height: 100%;
+}

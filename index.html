@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechScroll</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-default navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand font-weight-bold" href="#">TechScroll</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="nav navbar-nav ml-lg-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#showcase">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#info1">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="showcase" class="pt-5">
+      <div class="container my-md-4">
+        <div class="row">
+          <div class="col-md-6 showcase-left">
+            <img src="./img/image1.jpg" class="img1 img-fluid float-right" />
+          </div>
+          <div class="col-md-6 pt-5 showcase-right">
+            <h1>Hands-free help from the Google Assistant</h1>
+            <p>
+              Google Home voice-activated speaker.consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat
+            </p>
+            <button type="button" class="btn btn-default btn-lg showcase-btn">
+              Read More
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="testimonial">
+      <div class="container">
+        <blockquote class="blockquote text-center">
+          <p class="mb-0">
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud"
+          </p>
+          <p class="blockquote-footer customer">John Doe</p>
+        </blockquote>
+      </div>
+    </section>
+    <section id="info1">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 info-left">
+            <img src="./img/image2.png" class="img-fluid" />
+          </div>
+          <div class="col-md-6 pt-5 info-right">
+            <h3>Get To Know Google Home</h3>
+            <p>
+              Adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat
+            </p>
+            <button type="button" class="btn btn-default btn-lg">
+              Read More
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="info2">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-6 info-left">
+            <h2>Info Block One</h2>
+            <p>
+              Adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat
+            </p>
+          </div>
+          <div class="col-md-6 info-right">
+            <h2>Info Block Two</h2>
+            <p>
+              Adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <div class="row my-5">
+          <div class="col-md-5 col-sm-9 text-white">
+            <form>
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter Name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter Email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea
+                  rows="2"
+                  columns="5"
+                  class="form-control mx-auto"
+                  id="message"
+                  placeholder="Enter Message"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container d-flex justify-content-center align-items-center">
+        TechScroll Copyright &copy; 2020
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
