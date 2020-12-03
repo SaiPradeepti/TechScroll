@@ -9,4 +9,4 @@ This webpage was made using:
 - Bootstrap 4.1.3
 - [scrollreveal](https://github.com/jlmakes/scrollreveal) - to creat a slide effect for images and content
 
-This webpage is ficticious, developed for practice.
+This webpage is fictitious, developed for practice.
